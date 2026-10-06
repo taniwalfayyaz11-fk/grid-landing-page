@@ -1,0 +1,130 @@
+body {
+  background: hsl(228, 100%, 60%);
+  overflow-x: hidden;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+.head {
+  padding: 4px 70px;
+}
+.head img {
+  position: relative;
+  right: -38px;
+}
+.head h3 {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #ffffff;
+  font-weight: 100;
+  color: #fffafa;
+}
+.head input {
+  position: relative;
+  left: -7px;
+}
+.head img {
+  cursor: pointer;
+}
+.hero {
+  position: relative;
+  border: 1px solid hsl(220, 100%, 64%);
+  padding: 62px 80px;
+  width: 430px;
+  height: 470px;
+  left: -10px;
+}
+.hero h2 {
+  font-family: sans-serif;
+  font-size: 52px;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  font-weight: 100;
+  margin-top: 140px;
+}
+
+.hero p {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #c8e8ff;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+.hero .card {
+  position: relative;
+  bottom: -180px;
+  border: 1px solid hsl(220, 100%, 64%);
+  padding: 7px 30px;
+  height: 280px;
+  width: 313px;
+}
+.hero .card .flc {
+  display: flex;
+  gap: 205px;
+}
+.hero .card h4 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 27px;
+  font-weight: 100;
+}
+.hero .card h5 {
+  font-size: 19px;
+  font-family: sans-serif;
+  font-weight: 100;
+  color: #fffafa;
+  position: relative;
+  bottom: -60px;
+}
+.hero .card p {
+  position: relative;
+  bottom: -30px;
+  color: #c8e8ff;
+  font-size: 15px;
+}
+.hero .flex {
+  display: flex;
+  position: relative;
+  top: -639px;
+  right: -510px;
+}
+.hero .ftf {
+  display: flex;
+  position: relative;
+  top: -641px;
+  right: -510px;
+}
+.hero .ftf .card:nth-last-of-type(2) {
+  padding: 7px 36px;
+  height: 286px;
+}
+.hero .ftf .card:nth-last-of-type(1) {
+  height: 286px;
+  padding: 7px 36px;
+}
+footer {
+  position: relative;
+  right: -69px;
+  bottom: -20px;
+}
+footer p {
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #ffffff;
+}
+footer .flc {
+  display: flex;
+  justify-content: space-between;
+}
+footer span {
+  position: relative;
+  left: -100px;
+  bottom: -15px;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #ffffff;
+}
